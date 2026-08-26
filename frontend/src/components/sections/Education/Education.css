@@ -1,0 +1,402 @@
+/* =========================================
+   EDUCATION SECTION
+========================================= */
+
+.education {
+  width: 100%;
+  padding: 65px 0;
+
+  background: #ffffff;
+}
+
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.education-container {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.education-heading {
+  margin-bottom: 35px;
+}
+
+
+.education-label {
+  margin: 0 0 8px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 11px;
+
+  letter-spacing: 1px;
+
+  color: #666;
+}
+
+
+.education-heading h2 {
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 42px;
+
+  font-weight: 400;
+
+  line-height: 1.05;
+
+  letter-spacing: -0.7px;
+
+  color: #171717;
+}
+
+
+.education-heading h2 span {
+  color: #315f91;
+}
+
+
+/* =========================================
+   TIMELINE
+========================================= */
+
+.education-timeline {
+  width: 100%;
+
+  max-width: 850px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   TIMELINE ITEM
+========================================= */
+
+.education-item {
+  display: grid;
+
+  grid-template-columns:
+    180px
+    40px
+    minmax(0, 1fr);
+
+  min-height: 95px;
+}
+
+
+/* =========================================
+   YEAR
+========================================= */
+
+.education-year {
+  padding-top: 3px;
+
+  padding-right: 35px;
+
+  text-align: right;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 13px;
+
+  color: #777;
+}
+
+
+/* =========================================
+   CENTER TIMELINE
+========================================= */
+
+.education-line {
+  position: relative;
+
+  width: 40px;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+
+/* Vertical line */
+
+.education-line::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  left: 50%;
+
+  width: 1px;
+
+  background: #d9d9d5;
+
+  transform: translateX(-50%);
+}
+
+
+/* =========================================
+   TIMELINE DOT
+========================================= */
+
+.education-dot {
+  position: relative;
+
+  z-index: 2;
+
+  width: 10px;
+  height: 10px;
+
+  margin-top: 3px;
+
+  border-radius: 50%;
+
+  background: #315f91;
+
+  border: 3px solid #ffffff;
+
+  box-shadow:
+    0 0 0 1px #315f91;
+
+  transition: transform 0.2s ease;
+}
+
+
+.education-item:hover .education-dot {
+  transform: scale(1.25);
+}
+
+
+/* =========================================
+   DETAILS
+========================================= */
+
+.education-details {
+  padding-left: 28px;
+
+  padding-bottom: 18px;
+}
+
+
+.education-number {
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 9px;
+
+  color: #aaa;
+}
+
+
+/* =========================================
+   DEGREE
+========================================= */
+
+.education-details h3 {
+  margin: 0 0 6px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 20px;
+
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  color: #171717;
+
+  transition: color 0.2s ease;
+}
+
+
+.education-item:hover .education-details h3 {
+  color: #315f91;
+}
+
+
+/* =========================================
+   INSTITUTION
+========================================= */
+
+.education-institution {
+  margin: 0 0 3px;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+  color: #315f91;
+}
+
+
+/* =========================================
+   LOCATION
+========================================= */
+
+.education-location {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+  color: #888;
+}
+
+
+/* =========================================
+   RESULT / GATE RANK
+========================================= */
+
+.education-result {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  padding: 6px 11px;
+
+  border-radius: 20px;
+
+  background: #eef3f8;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 500;
+
+  color: #315f91;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 750px) {
+
+  .education-container {
+    padding: 0 25px;
+  }
+
+  .education-heading h2 {
+    font-size: 38px;
+  }
+
+  .education-item {
+    grid-template-columns:
+      120px
+      35px
+      minmax(0, 1fr);
+
+    min-height: 95px;
+  }
+
+  .education-line {
+    width: 35px;
+  }
+
+  .education-year {
+    padding-right: 20px;
+  }
+
+  .education-details {
+    padding-left: 20px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .education {
+    padding: 55px 0;
+  }
+
+  .education-container {
+    padding: 0 20px;
+  }
+
+  .education-heading {
+    margin-bottom: 30px;
+  }
+
+  .education-heading h2 {
+    font-size: 34px;
+  }
+
+  .education-item {
+    grid-template-columns:
+      75px
+      25px
+      minmax(0, 1fr);
+
+    min-height: 90px;
+  }
+
+  .education-line {
+    width: 25px;
+  }
+
+  .education-year {
+    padding-right: 12px;
+
+    font-size: 10px;
+  }
+
+  .education-details {
+    padding-left: 15px;
+
+    padding-bottom: 15px;
+  }
+
+  .education-details h3 {
+    font-size: 17px;
+  }
+
+  .education-result {
+    font-size: 10px;
+
+    padding: 5px 9px;
+  }
+
+}

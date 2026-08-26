@@ -1,0 +1,542 @@
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+.contact {
+  width: 100%;
+
+  padding: 100px 0 80px;
+
+  background: #f7f7f4;
+}
+
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.contact-container {
+  width: 100%;
+
+  max-width: 1250px;
+
+  margin: 0 auto;
+
+  padding: 0 35px;
+
+  box-sizing: border-box;
+
+  display: grid;
+
+  grid-template-columns:
+    0.9fr
+    1.1fr;
+
+  gap: 90px;
+
+  align-items: center;
+}
+
+
+/* =========================================
+   LEFT SIDE
+========================================= */
+
+.contact-label {
+  margin: 0 0 12px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 11px;
+
+  letter-spacing: 1.5px;
+
+  color: #315f91;
+}
+
+
+.contact-intro h2 {
+  max-width: 650px;
+
+  margin: 0;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(
+    42px,
+    4.5vw,
+    60px
+  );
+
+  font-weight: 400;
+
+  line-height: 1.05;
+
+  letter-spacing: -1.2px;
+
+  color: #171717;
+}
+
+
+.contact-intro h2 span {
+  color: #315f91;
+}
+
+
+/* =========================================
+   BLUE LINE
+========================================= */
+
+.contact-line {
+  width: 55px;
+
+  height: 2px;
+
+  margin: 28px 0;
+
+  background: #315f91;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.contact-description {
+  max-width: 510px;
+
+  margin: 0 0 35px;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+
+  color: #666;
+}
+
+
+/* =========================================
+   CONTACT DETAILS
+========================================= */
+
+.contact-details {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 17px;
+
+  margin-bottom: 35px;
+}
+
+
+.contact-detail {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+
+.contact-detail-label {
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+
+  color: #315f91;
+}
+
+
+.contact-detail a,
+.contact-detail p {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 13px;
+
+  color: #333;
+}
+
+
+.contact-detail a {
+  text-decoration: none;
+}
+
+
+.contact-detail a:hover {
+  color: #315f91;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.contact-buttons {
+  display: flex;
+
+  gap: 12px;
+}
+
+
+.contact-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 35px;
+
+  min-width: 125px;
+
+  padding: 12px 16px;
+
+  border-radius: 5px;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+
+.contact-button:hover {
+  transform: translateY(-2px);
+}
+
+
+.contact-button span {
+  font-size: 15px;
+}
+
+
+.contact-button.primary {
+  color: #ffffff;
+
+  background: #315f91;
+}
+
+
+.contact-button.primary:hover {
+  background: #244d7c;
+}
+
+
+.contact-button.secondary {
+  color: #315f91;
+
+  border: 1px solid #315f91;
+
+  background: transparent;
+}
+
+
+/* =========================================
+   MESSAGE BOX
+========================================= */
+
+.contact-message {
+  padding: 35px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e2de;
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.04);
+}
+
+
+/* =========================================
+   MESSAGE HEADER
+========================================= */
+
+.message-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 28px;
+}
+
+
+.message-icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eef3f8;
+
+  color: #315f91;
+
+  font-size: 19px;
+}
+
+
+.message-header h3 {
+  margin: 0 0 4px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 22px;
+
+  font-weight: 500;
+
+  color: #171717;
+}
+
+
+.message-header p {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 11px;
+
+  color: #888;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.contact-form {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 17px;
+}
+
+
+.form-row {
+  display: grid;
+
+  grid-template-columns:
+    1fr
+    1fr;
+
+  gap: 15px;
+}
+
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+
+.form-group label {
+  font-family: Arial, sans-serif;
+
+  font-size: 10px;
+
+  color: #555;
+}
+
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 13px 14px;
+
+  border: 1px solid #d9d9d5;
+
+  border-radius: 5px;
+
+  outline: none;
+
+  background: #ffffff;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+  color: #222;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.form-group textarea {
+  resize: vertical;
+
+  min-height: 120px;
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #315f91;
+
+  box-shadow:
+    0 0 0 3px rgba(49, 95, 145, 0.08);
+}
+
+
+/* =========================================
+   SEND BUTTON
+========================================= */
+
+.send-button {
+  width: 100%;
+
+  margin-top: 3px;
+
+  padding: 14px 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  background: #315f91;
+
+  color: #ffffff;
+
+  cursor: pointer;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 12px;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+.send-button:hover {
+  background: #244d7c;
+
+  transform: translateY(-1px);
+}
+
+
+.send-button span {
+  font-size: 15px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+  .contact-container {
+    grid-template-columns: 1fr;
+
+    gap: 55px;
+  }
+
+  .contact-intro h2 {
+    max-width: 700px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .contact {
+    padding: 70px 0 60px;
+  }
+
+
+  .contact-container {
+    padding: 0 20px;
+
+    gap: 40px;
+  }
+
+
+  .contact-intro h2 {
+    font-size: 40px;
+
+    letter-spacing: -0.8px;
+  }
+
+
+  .contact-description {
+    font-size: 13px;
+  }
+
+
+  .contact-buttons {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+
+  .contact-message {
+    padding: 22px;
+  }
+
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+}
