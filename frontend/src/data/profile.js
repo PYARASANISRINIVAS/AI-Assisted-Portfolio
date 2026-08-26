@@ -1,37 +1,38 @@
-export const profile = {
-  name: "Srinivas",
-  title: "AI-Assisted Portfolio",
-};
-
 export const navbarLinks = [
   {
-    name: "Home",
-    path: "#home",
-  },
-  {
-    name: "Profile",
+    name: "About",
     path: "#about",
+    external: false,
   },
+
   {
     name: "Skills",
     path: "#skills",
+    external: false,
   },
+
   {
     name: "Projects",
     path: "#projects",
+    external: false,
+  },
+
+  {
+    name: "Education",
+    path: "#education",
+    external: false,
   },
   {
     name: "Resume",
-    path: "/resume/resume.pdf",
+    path: "public\resume\resume.pdf",
     external: true,
   },
+
   {
-    name: "GitHub",
-    path: "https://github.com/PYARASANISRINIVAS",
-    external: true,
-  },
-  {
-    name: "Connect",
+    name: "Contact",
     path: "#contact",
+    external: false,
   },
+
+  
 ];

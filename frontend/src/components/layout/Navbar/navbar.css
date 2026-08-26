@@ -1,13 +1,38 @@
+/* =========================================
+   NAVBAR
+========================================= */
+
 .navbar {
+  position: fixed !important;
+
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+
+  width: 100% !important;
+
+  z-index: 9999 !important;
+
   padding: 20px 0;
+
   background: #ffffff;
+
+  box-sizing: border-box;
 }
+
+
+/* =========================================
+   CONTAINER
+========================================= */
 
 .navbar-container {
   min-height: 80px;
 }
 
-/* Logo */
+
+/* =========================================
+   LOGO
+========================================= */
 
 .navbar-logo {
   padding: 0;
@@ -17,54 +42,102 @@
 .navbar-logo img {
   width: 180px;
   height: auto;
+
   display: block;
 }
 
-/* Navigation */
+
+/* =========================================
+   NAVIGATION
+========================================= */
 
 .navbar-nav {
   display: flex;
+
   align-items: center;
+
   gap: 22px;
 }
 
 .navbar-nav .nav-link {
   color: #171717;
-  font-family: Georgia, "Times New Roman", serif;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
   font-size: 20px;
+
   padding: 5px 0;
-  transition: opacity 0.2s ease;
+
+  transition:
+    opacity 0.2s ease,
+    color 0.2s ease;
 }
 
 .navbar-nav .nav-link:hover {
   color: #171717;
+
   opacity: 0.55;
 }
 
-/* Mobile menu button */
+
+/* =========================================
+   CONNECT
+========================================= */
+
+.navbar-nav .nav-link:last-child {
+  margin-left: 45px;
+}
+
+
+/* =========================================
+   MOBILE BUTTON
+========================================= */
 
 .navbar-toggler {
   border: 1px solid #555;
+
   padding: 7px 9px;
+
+  background: transparent;
+
+  border-radius: 4px;
 }
 
 .navbar-toggler:focus {
   box-shadow: none;
 }
 
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  gap: 22px;
+
+/* =========================================
+   SECTION SCROLL OFFSET
+========================================= */
+
+section {
+  scroll-margin-top: 120px;
 }
 
-.navbar-nav .nav-link:last-child {
-  margin-left: 45px;
+
+/* =========================================
+   MAIN CONTENT OFFSET
+========================================= */
+
+main {
+  padding-top: 120px;
 }
 
-/* Mobile */
+
+/* =========================================
+   MOBILE
+========================================= */
 
 @media (max-width: 991px) {
+
+  .navbar {
+    padding: 15px 0;
+  }
 
   .navbar-container {
     padding: 10px 20px;
@@ -75,17 +148,62 @@
   }
 
   .navbar-nav {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    width: 100%;
+
     margin-top: 20px;
+
     gap: 0;
   }
 
   .navbar-nav .nav-link {
+    width: 100%;
+
     padding: 14px 0;
+
     border-top: 1px solid #e5e5e5;
+
     font-size: 17px;
   }
 
   .navbar-nav .nav-link:last-child {
+    margin-left: 0;
+
     border-bottom: 1px solid #e5e5e5;
   }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 500px) {
+
+  .navbar {
+    padding: 12px 0;
+  }
+
+  .navbar-container {
+    padding: 8px 15px;
+  }
+
+  .navbar-logo img {
+    width: 150px;
+  }
+
+  main {
+    padding-top: 90px;
+  }
+
+  section {
+    scroll-margin-top: 90px;
+  }
+
 }
