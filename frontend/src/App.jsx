@@ -91,7 +91,6 @@ function App() {
 
       <Routes>
 
-
         {/* =================================
             HOME
         ================================= */}
@@ -135,19 +134,22 @@ function App() {
           }
         />
 
-
       </Routes>
 
 
       {/* =====================================
           AI ASSISTANT
 
-          Fixed at bottom-right
-          and available on every page.
+          Opens automatically when the
+          portfolio is loaded.
+          
+          Existing chatbot functionality
+          remains unchanged.
       ===================================== */}
 
-      <AIChat />
-
+      <AIChat
+        autoOpen={true}
+      />
 
     </BrowserRouter>
   );
