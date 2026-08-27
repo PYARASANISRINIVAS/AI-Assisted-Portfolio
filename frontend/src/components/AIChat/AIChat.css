@@ -4,12 +4,9 @@
 
 .ai-chat {
   position: fixed;
-
   right: 28px;
-  bottom: 28px;
-
+  bottom: 80px;
   z-index: 9999;
-
   font-family: Arial, sans-serif;
 }
 
@@ -20,22 +17,17 @@
 
 .ai-chat-launcher {
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   gap: 9px;
 
   height: 48px;
-
   padding: 0 18px;
 
   border: 1px solid #315f91;
-
   border-radius: 30px;
 
   background: #315f91;
-
   color: #ffffff;
 
   cursor: pointer;
@@ -72,7 +64,6 @@
   height: 22px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -95,17 +86,14 @@
 
 .ai-chat-window {
   width: 380px;
-
   height: 570px;
 
   display: flex;
-
   flex-direction: column;
 
   overflow: hidden;
 
   border: 1px solid #deded9;
-
   border-radius: 16px;
 
   background: #ffffff;
@@ -145,9 +133,7 @@
 
 .ai-chat-header {
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
 
   padding: 16px 18px;
@@ -160,7 +146,6 @@
 
 .ai-chat-header-left {
   display: flex;
-
   align-items: center;
 
   gap: 11px;
@@ -172,14 +157,12 @@
   height: 38px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
   border-radius: 50%;
 
   background: #315f91;
-
   color: #ffffff;
 
   font-size: 17px;
@@ -195,7 +178,6 @@
     serif;
 
   font-size: 16px;
-
   font-weight: 500;
 
   color: #171717;
@@ -204,7 +186,6 @@
 
 .ai-chat-status {
   display: flex;
-
   align-items: center;
 
   gap: 5px;
@@ -230,7 +211,6 @@
   height: 32px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -345,8 +325,7 @@
 }
 
 
-.ai-message-assistant
-.ai-message-bubble {
+.ai-message-assistant .ai-message-bubble {
   border-bottom-left-radius: 3px;
 
   background: #f2f2ee;
@@ -355,8 +334,7 @@
 }
 
 
-.ai-message-user
-.ai-message-bubble {
+.ai-message-user .ai-message-bubble {
   border-bottom-right-radius: 3px;
 
   background: #315f91;
@@ -511,6 +489,7 @@
   flex: 1;
 
   min-height: 38px;
+
   max-height: 90px;
 
   resize: none;
@@ -618,8 +597,7 @@
 
   .ai-chat {
     right: 16px;
-
-    bottom: 16px;
+    bottom: 70px;
   }
 
 
@@ -652,8 +630,7 @@
 
   .ai-chat {
     right: 10px;
-
-    bottom: 10px;
+    bottom: 65px;
   }
 
 
