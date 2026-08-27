@@ -10,8 +10,8 @@ import Navbar from "./components/layout/Navbar/Navbar";
 
 import Hero from "./components/sections/Hero/Hero";
 import About from "./components/sections/About/About";
-import Skills from "./components/sections/Skills/skills";
-import Projects from "./components/sections/Projects/projects";
+import Skills from "./components/sections/Skills/Skills";
+import Projects from "./components/sections/Projects/Projects";
 import EducationAndCertifications from "./components/sections/EducationAndCertifications/EducationAndCertifications";
 import Contact from "./components/sections/Contact/Contact";
 
