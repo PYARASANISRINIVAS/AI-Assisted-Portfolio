@@ -47,51 +47,68 @@ function AIChat() {
      SEND MESSAGE
   ========================================= */
 
-  const sendMessage = (messageText = input) => {
-    const text = messageText.trim();
+const sendMessage = async (messageText = input) => {
+  const text = messageText.trim();
 
-    if (!text) return;
+  if (!text || isTyping) return;
 
+  const userMessage = {
+    id: Date.now(),
+    type: "user",
+    text,
+  };
 
-    /* USER MESSAGE */
+  setMessages((current) => [
+    ...current,
+    userMessage,
+  ]);
 
-    const userMessage = {
-      id: Date.now(),
-      type: "user",
-      text,
-    };
+  setInput("");
+  setIsTyping(true);
+
+  try {
+    const response = await fetch(
+      "http://127.0.0.1:8000/api/chat",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          question: text,
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Failed to get response from backend");
+    }
+
+    const data = await response.json();
 
     setMessages((current) => [
       ...current,
-      userMessage,
+      {
+        id: Date.now() + 1,
+        type: "assistant",
+        text: data.answer,
+      },
     ]);
+  } catch (error) {
+    console.error("AI Chat Error:", error);
 
-    setInput("");
-
-    setIsTyping(true);
-
-
-    /*
-      Temporary frontend response.
-
-      Later we will replace this with
-      an API call to the AI backend.
-    */
-
-    setTimeout(() => {
-      setMessages((current) => [
-        ...current,
-        {
-          id: Date.now() + 1,
-          type: "assistant",
-          text: "Thanks for your message. The AI assistant backend will be connected here soon.",
-        },
-      ]);
-
-      setIsTyping(false);
-    }, 900);
-  };
-
+    setMessages((current) => [
+      ...current,
+      {
+        id: Date.now() + 1,
+        type: "assistant",
+        text: "Sorry, I couldn't connect to the AI assistant right now.",
+      },
+    ]);
+  } finally {
+    setIsTyping(false);
+  }
+};
 
   /* =========================================
      ENTER KEY
