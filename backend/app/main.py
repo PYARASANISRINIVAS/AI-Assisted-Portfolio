@@ -1,3 +1,6 @@
+
+# FastAPI application, which we connect after the RAG pipeline is ready.
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
