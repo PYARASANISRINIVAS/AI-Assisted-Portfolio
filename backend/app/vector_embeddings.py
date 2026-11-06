@@ -23,13 +23,13 @@ chunks=splitter.split_text(data)
 
 
 
-# db=FAISS.from_documents(
-#     documents=chunks,
-#     embedding=embedding_model
-# )
+db=FAISS.from_documents(
+    documents=chunks,
+    embedding=embedding_model
+)
 
 
-# db.save_local(r"FAISS","faiss_index")
+db.save_local(r"FAISS","faiss_index")
 
 
 

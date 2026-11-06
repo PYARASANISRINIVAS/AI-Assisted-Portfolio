@@ -27,7 +27,7 @@ db=FAISS.load_local(r"FAISS",
 
 # defining the retriever
 retriever = db.as_retriever(
-    search_type="mmr",
+    search_type="similarity",
     search_kwargs={"k": 5}
 )
 
@@ -103,11 +103,11 @@ for i in golden_dataset:
     # if iteration ==5:
     #     break 
 
-# Creating the excel
-df=pd.DataFrame(output_data)
-df.to_csv("evaluation_reranking.csv",index=False)
-print("**********************************************")
-print("CSV Created ")
+# # Creating the excel
+# df=pd.DataFrame(output_data)
+# df.to_csv("evaluation_similarity_reranking.csv",index=False)
+# print("**********************************************")
+# print("CSV Created ")
 
 
 
