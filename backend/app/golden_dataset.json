@@ -1,0 +1,493 @@
+
+[
+  {
+    "id": 1,
+    "category": "Personal Profile",
+    "difficulty": "easy",
+    "question": "Who is Pyarasani Srinivas?",
+    "expected_answer": "Pyarasani Srinivas is a technology enthusiast passionate about Artificial Intelligence, Machine Learning, Data Science, and Generative AI. He specializes in Python, machine learning algorithms, data processing, and modern AI frameworks."
+  },
+  {
+    "id": 2,
+    "category": "Personal Profile",
+    "difficulty": "easy",
+    "question": "What are Srinivas's primary areas of technical interest?",
+    "expected_answer": "His primary technical interests include Artificial Intelligence, Machine Learning, Data Science, Generative AI, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and Agentic AI."
+  },
+  {
+    "id": 3,
+    "category": "Personal Profile",
+    "difficulty": "easy",
+    "question": "Which programming language does Srinivas specialize in?",
+    "expected_answer": "Srinivas specializes in Python,Machine Learning,genartive AI and agentic ai ."
+  },
+  {
+    "id": 4,
+    "category": "Personal Profile",
+    "difficulty": "medium",
+    "question": "What types of real-world problems does Srinivas aim to solve?",
+    "expected_answer": "Srinivas aims to develop practical, AI-driven solutions to real-world problems using Artificial Intelligence, Machine Learning, Data Science, and modern AI frameworks."
+  },
+  {
+    "id": 5,
+    "category": "Personal Profile",
+    "difficulty": "medium",
+    "question": "What are Srinivas's interests in Generative AI and modern AI technologies?",
+    "expected_answer": "His interests include building intelligent applications using Large Language Models, Retrieval-Augmented Generation, Agentic AI, and modern AI frameworks."
+  },
+  {
+    "id": 6,
+    "category": "Education",
+    "difficulty": "easy",
+    "question": "What is Srinivas's educational qualification?",
+    "expected_answer": "Srinivas holds a Bachelor of Technology (B.Tech) qualification in Computer Science and Engineering."
+  },
+  {
+    "id": 7,
+    "category": "Education",
+    "difficulty": "easy",
+    "question": "Which college did Srinivas attend?",
+    "expected_answer": "Srinivas attended CMR Engineering College."
+  },
+  {
+    "id": 8,
+    "category": "Education",
+    "difficulty": "medium",
+    "question": "Which university is CMR Engineering College affiliated with?",
+    "expected_answer": "CMR Engineering College is affiliated with Jawaharlal Nehru Technological University Hyderabad (JNTUH)."
+  },
+  {
+    "id": 9,
+    "category": "Education",
+    "difficulty": "easy",
+    "question": "What is Srinivas's B.Tech CGPA?",
+    "expected_answer": "Srinivas achieved a CGPA of 8.40 out of 10."
+  },
+  {
+    "id": 10,
+    "category": "Technical Skills",
+    "difficulty": "easy",
+    "question": "What programming languages does Srinivas know?",
+    "expected_answer": "Srinivas knows Python and SQL."
+  },
+  {
+    "id": 11,
+    "category": "Technical Skills",
+    "difficulty": "medium",
+    "question": "Which Python libraries does Srinivas use for data processing and analysis?",
+    "expected_answer": "He uses NumPy and Pandas for data processing and analysis."
+  },
+  {
+    "id": 12,
+    "category": "Technical Skills",
+    "difficulty": "medium",
+    "question": "Which tools and libraries does Srinivas use for data visualization?",
+    "expected_answer": "He uses Matplotlib and Seaborn for data visualization."
+  },
+  {
+    "id": 13,
+    "category": "Technical Skills",
+    "difficulty": "medium",
+    "question": "What are Srinivas's machine learning skills?",
+    "expected_answer": "His machine learning skills include regression, classification, clustering, exploratory data analysis, statistical analysis, data cleaning, preprocessing, feature engineering, model training, hyperparameter tuning, and model evaluation. He also uses Scikit-learn."
+  },
+  {
+    "id": 14,
+    "category": "Technical Skills",
+    "difficulty": "medium",
+    "question": "What technologies does Srinivas know for building RAG applications?",
+    "expected_answer": "He has experience with LangChain, LangGraph, document loading, parsing, chunking, text embeddings, vector databases, semantic search, hybrid retrieval, reranking, metadata management, filtering, and RAG evaluation."
+  },
+  {
+    "id": 15,
+    "category": "Technical Skills",
+    "difficulty": "medium",
+    "question": "What are Srinivas's skills related to LLMs and AI agents?",
+    "expected_answer": "His skills include Large Language Models, prompt engineering, Retrieval-Augmented Generation, AI agents, tool calling, structured outputs, agent workflows, and state management."
+  },
+  {
+    "id": 16,
+    "category": "Technical Skills",
+    "difficulty": "easy",
+    "question": "Which frameworks does Srinivas use for application development?",
+    "expected_answer": "He uses Streamlit and FastAPI for application development, along with React and Vite for frontend development."
+  },
+  {
+    "id": 17,
+    "category": "Technical Skills",
+    "difficulty": "medium",
+    "question": "Which databases and development tools does Srinivas have experience with?",
+    "expected_answer": "His database experience includes MySQL and SQLite. His development tools include Git, GitHub, Docker, Jupyter Notebook, and Google Colab."
+  },
+  {
+    "id": 18,
+    "category": "CyberShield AI",
+    "difficulty": "easy",
+    "question": "What is CyberShield AI, and what problem does it solve?",
+    "expected_answer": "CyberShield AI is an end-to-end Machine Learning application that uses Natural Language Processing to detect and classify cyberbullying in textual messages. It addresses the challenge of identifying harmful online content automatically."
+  },
+  {
+    "id": 19,
+    "category": "CyberShield AI",
+    "difficulty": "medium",
+    "question": "What is the dataset size and structure used in CyberShield AI?",
+    "expected_answer": "CyberShield AI uses a dataset containing 47,692 records and two features: Tweet, which contains user-generated text, and Type, which represents the cyberbullying category."
+  },
+  {
+    "id": 20,
+    "category": "CyberShield AI",
+    "difficulty": "medium",
+    "question": "What are the six classification categories in CyberShield AI?",
+    "expected_answer": "The six categories are Not Cyberbullying, Age, Ethnicity, Gender, Religion, and Other Cyberbullying."
+  },
+  {
+    "id": 21,
+    "category": "CyberShield AI",
+    "difficulty": "medium",
+    "question": "Which text preprocessing techniques were used in CyberShield AI?",
+    "expected_answer": "The preprocessing techniques include lowercase conversion, punctuation and special character removal, number removal, tokenization, stopword removal, and lemmatization."
+  },
+  {
+    "id": 22,
+    "category": "CyberShield AI",
+    "difficulty": "medium",
+    "question": "Which machine learning algorithm and feature extraction technique were used in CyberShield AI?",
+    "expected_answer": "CyberShield AI uses Logistic Regression for classification and TF-IDF vectorization to convert textual messages into numerical feature representations."
+  },
+  {
+    "id": 23,
+    "category": "CyberShield AI",
+    "difficulty": "medium",
+    "question": "What accuracy did CyberShield AI achieve, and which hyperparameter tuning technique was used?",
+    "expected_answer": "CyberShield AI achieved 84% accuracy. GridSearchCV was used for hyperparameter tuning, and the model was evaluated using 5-fold cross-validation."
+  },
+  {
+    "id": 24,
+    "category": "AirWrite AI",
+    "difficulty": "easy",
+    "question": "What is AirWrite AI, and how does it recognize handwritten alphabets?",
+    "expected_answer": "AirWrite AI is a Machine Learning application that recognizes English alphabets A–Z written in the air using hand gestures. It uses MediaPipe Hand Landmarker to track hand movements, OpenCV to create a virtual drawing canvas, and KNN to classify the captured alphabet."
+  },
+  {
+    "id": 25,
+    "category": "AirWrite AI",
+    "difficulty": "medium",
+    "question": "What is the dataset size, and how many classes are used in AirWrite AI?",
+    "expected_answer": "The dataset contains 6,831 images across 26 classes representing the English alphabets A–Z. Each class contains approximately 250–300 images."
+  },
+  {
+    "id": 26,
+    "category": "AirWrite AI",
+    "difficulty": "medium",
+    "question": "How is image preprocessing performed in AirWrite AI?",
+    "expected_answer": "Image preprocessing includes image loading, grayscale conversion, resizing to 100 × 100 pixels, NumPy array conversion, flattening into feature vectors, and preparing the model input."
+  },
+  {
+    "id": 27,
+    "category": "AirWrite AI",
+    "difficulty": "medium",
+    "question": "What is the role of MediaPipe and OpenCV in AirWrite AI?",
+    "expected_answer": "MediaPipe Hand Landmarker detects hand landmarks and tracks index fingertip movement in real time. OpenCV is used to create the virtual drawing canvas and capture the handwritten letters."
+  },
+  {
+    "id": 28,
+    "category": "AirWrite AI",
+    "difficulty": "medium",
+    "question": "Which classification algorithm, number of neighbors, and distance metric are used in AirWrite AI?",
+    "expected_answer": "AirWrite AI uses the K-Nearest Neighbors (KNN) classifier with K = 7 and Euclidean distance. RandomizedSearchCV is used for hyperparameter tuning."
+  },
+  {
+    "id": 29,
+    "category": "AirWrite AI",
+    "difficulty": "medium",
+    "question": "What is the accuracy of AirWrite AI, and what are its main application features?",
+    "expected_answer": "AirWrite AI achieved 82% accuracy. Its features include real-time hand tracking, air-writing using the index finger, a virtual drawing canvas, automatic image preprocessing, real-time alphabet prediction, and an interactive Streamlit application."
+  },
+  {
+    "id": 30,
+    "category": "Student Stress Prediction",
+    "difficulty": "easy",
+    "question": "What is the objective of the Student Stress Prediction System?",
+    "expected_answer": "The objective is to predict whether a student is Stressed or Relaxed based on lifestyle, academic, and personal factors such as sleep patterns, study hours, social media usage, attendance, examination pressure, and family support."
+  },
+  {
+    "id": 31,
+    "category": "Student Stress Prediction",
+    "difficulty": "medium",
+    "question": "What are the eight input features used to predict student stress?",
+    "expected_answer": "The eight input features are Student Type, Sleep Hours, Study Hours, Social Media Hours, Attendance Percentage, Exam Pressure, Family Support, and Month."
+  },
+  {
+    "id": 32,
+    "category": "Student Stress Prediction",
+    "difficulty": "easy",
+    "question": "What are the target classes, and how are they encoded?",
+    "expected_answer": "The target classes are Stressed, encoded as 0, and Relaxed, encoded as 1."
+  },
+  {
+    "id": 33,
+    "category": "Student Stress Prediction",
+    "difficulty": "medium",
+    "question": "Which machine learning algorithm is used for student stress classification?",
+    "expected_answer": "The Student Stress Prediction System uses a K-Nearest Neighbors (KNN) classifier for binary classification."
+  },
+  {
+    "id": 34,
+    "category": "Student Stress Prediction",
+    "difficulty": "hard",
+    "question": "What are the precision, recall, and F1-score values for the Stressed and Relaxed classes?",
+    "expected_answer": "For the Stressed class, precision is 0.83, recall is 0.89, and F1-score is 0.86. For the Relaxed class, precision is 0.70, recall is 0.58, and F1-score is 0.63."
+  },
+  {
+    "id": 35,
+    "category": "Student Stress Prediction",
+    "difficulty": "medium",
+    "question": "Where is the application deployed, and where can its source code be found?",
+    "expected_answer": "The application is deployed on Streamlit Community Cloud at https://students-stress-prediction.streamlit.app/. Its GitHub repository is https://github.com/PYARASANISRINIVAS/student-stress-prediction."
+  },
+  {
+    "id": 36,
+    "category": "AgriYield AI",
+    "difficulty": "easy",
+    "question": "What is AgriYield AI, and what problem does it address?",
+    "expected_answer": "AgriYield AI is an end-to-end Machine Learning application that predicts agricultural crop yield using historical agricultural, environmental, and geographical data. It aims to support data-driven agricultural planning and resource management."
+  },
+  {
+    "id": 37,
+    "category": "AgriYield AI",
+    "difficulty": "medium",
+    "question": "What is the dataset size, collection period, and geographical coverage of AgriYield AI?",
+    "expected_answer": "The dataset contains 21,750 records collected over the period 2000–2026 and covers 31 Indian states."
+  },
+  {
+    "id": 38,
+    "category": "AgriYield AI",
+    "difficulty": "medium",
+    "question": "Which agricultural and environmental features are used for crop yield prediction?",
+    "expected_answer": "The features include State, District, Crop, Season, Area, Rainfall, Temperature, Fertilizer Usage, Pesticide Usage, Production, and Crop Yield."
+  },
+  {
+    "id": 39,
+    "category": "AgriYield AI",
+    "difficulty": "medium",
+    "question": "What preprocessing and feature engineering techniques were performed?",
+    "expected_answer": "The project includes data cleaning, handling missing values, exploratory data analysis, categorical feature encoding, feature engineering, feature selection, and hyperparameter tuning."
+  },
+  {
+    "id": 40,
+    "category": "AgriYield AI",
+    "difficulty": "easy",
+    "question": "Which regression algorithm is used, and what is its R² score?",
+    "expected_answer": "AgriYield AI uses a Decision Tree Regressor and achieved an R² score of 96%."
+  },
+  {
+    "id": 41,
+    "category": "AgriYield AI",
+    "difficulty": "medium",
+    "question": "What types of inputs does the AgriYield AI application support?",
+    "expected_answer": "The application supports state, district, crop, and season-based inputs and uses agricultural and environmental parameters to predict crop yield."
+  },
+  {
+    "id": 42,
+    "category": "Smart Traffic Sign Recognition",
+    "difficulty": "easy",
+    "question": "What is the objective of the Smart Traffic Sign Recognition and Alert System?",
+    "expected_answer": "The objective is to automatically recognize and classify traffic signs from images, videos, and live camera feeds and generate timely voice alerts to support driver awareness and road safety."
+  },
+  {
+    "id": 43,
+    "category": "Smart Traffic Sign Recognition",
+    "difficulty": "medium",
+    "question": "What is the input dataset format, image size, and feature representation?",
+    "expected_answer": "The project uses traffic_sign.csv. The images are 32 × 32 pixels, with RGB/BGR pixel values represented as flattened image pixel features. The target contains multiple traffic sign classes."
+  },
+  {
+    "id": 44,
+    "category": "Smart Traffic Sign Recognition",
+    "difficulty": "medium",
+    "question": "What image preprocessing techniques are applied before model training?",
+    "expected_answer": "The preprocessing techniques include resizing images to 32 × 32 pixels, converting pixel values to floating-point format, normalizing pixel values using /255.0, flattening images into feature vectors, and preparing model inputs."
+  },
+  {
+    "id": 45,
+    "category": "Smart Traffic Sign Recognition",
+    "difficulty": "hard",
+    "question": "What is the ANN architecture, including hidden layers, neurons, dropout rates, and learning rate?",
+    "expected_answer": "The model is an Artificial Neural Network with three hidden layers containing 160, 192, and 160 neurons respectively. The dropout rates are 0.1 and 0.3, the learning rate is 0.000321, and the batch size is 16. Random Search is used for hyperparameter optimization."
+  },
+  {
+    "id": 46,
+    "category": "Smart Traffic Sign Recognition",
+    "difficulty": "easy",
+    "question": "What is the validation accuracy achieved by the ANN model?",
+    "expected_answer": "The ANN model achieved a validation accuracy of 75.41%."
+  },
+  {
+    "id": 47,
+    "category": "Smart Traffic Sign Recognition",
+    "difficulty": "medium",
+    "question": "What input modes and alert features are supported by the application?",
+    "expected_answer": "The application supports image-based prediction, video-based recognition, and real-time recognition using a live camera. It displays the predicted traffic sign and confidence score and generates voice alerts."
+  },
+  {
+    "id": 48,
+    "category": "Delhi AQI Analysis",
+    "difficulty": "easy",
+    "question": "What is the objective of the Delhi AQI and Weather Analysis project?",
+    "expected_answer": "The objective is to analyze Delhi's air quality and weather data to identify pollution trends, pollution hotspots, seasonal patterns, and relationships between weather conditions and AQI."
+  },
+  {
+    "id": 49,
+    "category": "Delhi AQI Analysis",
+    "difficulty": "medium",
+    "question": "What time period and geographical coverage does the dataset represent?",
+    "expected_answer": "The dataset contains hourly air quality and weather observations collected throughout 2025 from multiple locations across Delhi."
+  },
+  {
+    "id": 50,
+    "category": "Delhi AQI Analysis",
+    "difficulty": "medium",
+    "question": "Which pollutants and weather parameters are analyzed in this project?",
+    "expected_answer": "The analyzed pollutants are PM2.5, PM10, NO₂, and CO. The weather parameters include temperature, humidity, pressure, wind speed, and weather conditions."
+  },
+  {
+    "id": 51,
+    "category": "Delhi AQI Analysis",
+    "difficulty": "hard",
+    "question": "What data cleaning and validation techniques were performed?",
+    "expected_answer": "The project includes datetime conversion, duplicate column removal, column standardization, missing value and duplicate record validation, pollutant measurement validation, coordinate and location consistency checks, and AQI validation against CPCB's 0–500 range. A total of 6,903 AQI values exceeding 500 were clipped to 500."
+  },
+  {
+    "id": 52,
+    "category": "Delhi AQI Analysis",
+    "difficulty": "medium",
+    "question": "What types of analysis were conducted to understand pollution patterns?",
+    "expected_answer": "The analysis includes monthly and hourly AQI trends, seasonal pollution patterns, location-wise AQI comparisons, pollution hotspot identification, pollutant analysis, correlation analysis between weather parameters and AQI, and the influence of temperature, humidity, wind speed, and pressure."
+  },
+  {
+    "id": 53,
+    "category": "Delhi AQI Analysis",
+    "difficulty": "hard",
+    "question": "What were the key findings regarding pollutants, wind speed, and weather conditions?",
+    "expected_answer": "PM2.5 showed the strongest influence on AQI among the analyzed pollutants, while PM10 also contributed significantly to poor air quality. Low wind speeds were associated with pollutant accumulation. Temperature, humidity, and other weather conditions influenced pollution patterns, and certain locations experienced consistently higher pollution levels."
+  },
+  {
+    "id": 54,
+    "category": "Certifications",
+    "difficulty": "medium",
+    "question": "What certifications has Srinivas completed, and who are their respective providers?",
+    "expected_answer": "Srinivas has completed four certifications: Proficiency Certificate in Data Structures and Algorithms from Smart Interviews, AWS Academy Cloud Foundations from Amazon Web Services, CCNA Introduction to Networks from Cisco Networking Academy, and SQL from Innomatics Research Labs."
+  },
+  {
+    "id": 55,
+    "category": "Certifications",
+    "difficulty": "medium",
+    "question": "Which certification is related to cloud computing, and which one is related to networking?",
+    "expected_answer": "AWS Academy Cloud Foundations is related to cloud computing. CCNA Introduction to Networks is related to computer networking."
+  },
+  {
+    "id": 56,
+    "category": "Technical Publications",
+    "difficulty": "easy",
+    "question": "What are the three technical articles published by Srinivas?",
+    "expected_answer": "The three articles are Numerical and Categorical Data Preprocessing in Machine Learning, Complete Machine Learning Framework and Workflow, and A Good Understanding of AI, ML, DL and Generative AI."
+  },
+  {
+    "id": 57,
+    "category": "Technical Publications",
+    "difficulty": "medium",
+    "question": "On which platform were the technical articles published, and what are their respective topics?",
+    "expected_answer": "All three articles were published on Medium. Their topics are data preprocessing in machine learning, the machine learning workflow, and Artificial Intelligence fundamentals covering AI, ML, DL, and Generative AI."
+  },
+  {
+    "id": 58,
+    "category": "Personal Assistant RAG Chatbot",
+    "difficulty": "easy",
+    "question": "What is the objective of Srinivas's Personal Assistant RAG Chatbot?",
+    "expected_answer": "The objective is to build an intelligent conversational application that answers questions about Srinivas's professional profile, technical skills, projects, certifications, achievements, and technical interests using Retrieval-Augmented Generation."
+  },
+  {
+    "id": 59,
+    "category": "Personal Assistant RAG Chatbot",
+    "difficulty": "hard",
+    "question": "What are the steps involved in the proposed RAG architecture?",
+    "expected_answer": "The proposed architecture includes preparing a centralized Markdown knowledge base, parsing and extracting document content, Markdown heading-based chunking, attaching document-level and chunk-level metadata, generating embeddings, storing embeddings and metadata in a vector database, converting user queries into searchable representations, applying metadata-aware retrieval, using vector and keyword search, reranking results, passing relevant context to the LLM, and generating grounded responses."
+  },
+  {
+    "id": 60,
+    "category": "Personal Assistant RAG Chatbot",
+    "difficulty": "medium",
+    "question": "What advanced features are planned for the Personal Assistant RAG Chatbot?",
+    "expected_answer": "The planned advanced features include context-aware conversations, chat history management, multi-session support, semantic search, hybrid retrieval, metadata filtering, contextual retrieval, source-based answers, and RAG evaluation."
+  },
+  {
+    "id": 61,
+    "category": "Cross-Project Comparison",
+    "difficulty": "hard",
+    "question": "Which project achieved the highest reported accuracy?",
+    "expected_answer": "Among the projects with reported accuracy percentages, AgriYield AI has the highest reported value at 96% R² score. However, this is a regression metric and should not be directly compared with classification accuracy. Among classification projects, the highest reported accuracy is 84% for CyberShield AI."
+  },
+  {
+    "id": 62,
+    "category": "Cross-Project Comparison",
+    "difficulty": "hard",
+    "question": "Which projects use KNN, and what is the purpose of KNN in each?",
+    "expected_answer": "AirWrite AI uses K-Nearest Neighbors with K = 7 and Euclidean distance to classify handwritten English alphabets. The Student Stress Prediction System uses KNN for binary classification to predict whether a student is Stressed or Relaxed."
+  },
+  {
+    "id": 63,
+    "category": "Cross-Project Comparison",
+    "difficulty": "hard",
+    "question": "Compare CyberShield AI and Student Stress Prediction System in terms of algorithms and classification types.",
+    "expected_answer": "CyberShield AI uses Logistic Regression with TF-IDF for six-category text classification of cyberbullying messages. The Student Stress Prediction System uses KNN for binary classification into Stressed and Relaxed classes."
+  },
+  {
+    "id": 64,
+    "category": "Cross-Project Comparison",
+    "difficulty": "medium",
+    "question": "Which projects use Streamlit?",
+    "expected_answer": "All six projects documented in the knowledge base use Streamlit: CyberShield AI, AirWrite AI, Student Stress Prediction System, AgriYield AI, Smart Traffic Sign Recognition and Alert System, and Delhi AQI and Weather Analysis."
+  },
+  {
+    "id": 65,
+    "category": "Cross-Project Comparison",
+    "difficulty": "hard",
+    "question": "Which projects use Joblib for model serialization?",
+    "expected_answer": "CyberShield AI, AirWrite AI, Student Stress Prediction System, AgriYield AI, and Smart Traffic Sign Recognition and Alert System use Joblib for model serialization or model utilities. The Delhi AQI and Weather Analysis project does not list Joblib."
+  },
+  {
+    "id": 66,
+    "category": "Cross-Project Reasoning",
+    "difficulty": "hard",
+    "question": "Does Srinivas have experience with both regression and classification? Give project examples.",
+    "expected_answer": "Yes. AgriYield AI uses a Decision Tree Regressor for crop yield prediction. CyberShield AI uses Logistic Regression for text classification, AirWrite AI uses KNN for alphabet classification, the Student Stress Prediction System uses KNN for binary classification, and Smart Traffic Sign Recognition uses an ANN for image classification."
+  },
+  {
+    "id": 67,
+    "category": "Cross-Project Reasoning",
+    "difficulty": "medium",
+    "question": "Which project uses an ANN instead of a conventional machine learning classifier?",
+    "expected_answer": "The Smart Traffic Sign Recognition and Alert System uses an Artificial Neural Network (ANN) to classify traffic signs."
+  },
+  {
+    "id": 68,
+    "category": "Numerical Comparison",
+    "difficulty": "hard",
+    "question": "What is the difference between the reported accuracy of CyberShield AI and the validation accuracy of the traffic sign project?",
+    "expected_answer": "CyberShield AI achieved 84% accuracy, while the Smart Traffic Sign Recognition and Alert System achieved 75.41% validation accuracy. The numerical difference is 8.59 percentage points."
+  },
+  {
+    "id": 69,
+    "category": "Missing Information",
+    "difficulty": "hard",
+    "question": "What is the exact Medium URL of the article on data preprocessing?",
+    "expected_answer": "The exact Medium article URL is not provided in the knowledge base. The document contains a placeholder stating that the Medium article URL should be added."
+  },
+  {
+    "id": 70,
+    "category": "Missing Information",
+    "difficulty": "hard",
+    "question": "What is Srinivas's GATE rank?",
+    "expected_answer": "Srinivas's GATE rank is not specified in the provided Personal Knowledge Base. The chatbot should not guess or generate a rank."
+  }
+]

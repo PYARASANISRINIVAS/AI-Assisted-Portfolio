@@ -7,6 +7,8 @@ __pycache__/
 rag_venv/
 venv/
 .venv/
+.env
+backend/.env
 
 
 # =========================

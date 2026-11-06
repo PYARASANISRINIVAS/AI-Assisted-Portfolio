@@ -6,6 +6,14 @@ langchain-community
 langchain-core
 langchain-groq
 langchain-text-splitters
+langchain-huggingface
+
+sentence-transformers
+faiss-cpu
+rank_bm25
+
+
+
 pydantic
 
 
